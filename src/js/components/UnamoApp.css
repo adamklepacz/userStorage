@@ -1,0 +1,22 @@
+.unamo-app {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  background-color: var(--white);
+}
+
+.unamo-app__header {
+  padding: 20px 30px;
+}
+
+.user-app__add {
+  display: flex;
+  align-items: center;
+}
+
+.unamo-app .main-button__add {
+  margin-right: 16px;
+}
+
+.unamo-app .user-app__add {
+  margin-bottom: 16px;
+}

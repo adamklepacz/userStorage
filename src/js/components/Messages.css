@@ -1,0 +1,18 @@
+.user-message {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 11px;
+}
+
+.user-message .fa {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.user-message__success .fa {
+  color: var(--green);
+}
+
+.user-message__error .fa {
+  color: var(--red);
+}

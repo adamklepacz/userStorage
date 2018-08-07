@@ -1,0 +1,120 @@
+.user-app__form {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.user-app__input {
+  border: 1px solid var(--gray2);
+  padding: 10px 15px;
+  border-radius: 3px;
+  font-size: 16px;
+  width: 225px;
+}
+
+.user-app__input::placeholder {
+  color: var(--gray2);
+  font-size: 16px;
+}
+
+.user-app__form input {
+  margin-right: 10px;
+}
+
+.user-app__form .user-app__submit {
+  margin-right: 20px;
+}
+
+/* table component */
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border-spacing: 0;
+}
+
+.table tr:nth-of-type(odd) {
+  background-color: var(--gray3);
+}
+
+table.table .table__header {
+  background-color: var(--gray4);
+}
+
+.table tr td,
+.table tr th {
+  text-align: left;
+  padding: 15px 0;
+  border-top: 1px solid var(--white);
+  font-weight: 400;
+  border: 0;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.table tr th {
+  color: var(--gray1);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 10px;
+  text-transform: uppercase;
+  padding: 10px 0;
+  background-color: var(--gray4);
+}
+
+.table tr td:last-child {
+  width: 10px;
+  color: var(--gray5);
+  padding-right: 30px;
+}
+
+.table tr td:first-child {
+  font-size: 13px;
+}
+
+.table tr th:first-child,
+.table tr td:first-child {
+  width: 190px;
+  padding-left: 29px;
+}
+
+.table tr td:nth-child(2) {
+  margin-right: 50px;
+  width: 270px;
+}
+
+.table tr td span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  border: 1px solid var(--gray2);
+  color: var(--gray5);
+}
+
+.table tr td button {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: 0;
+}
+
+.table tr td .fa {
+  opacity: 0.3;
+}
+
+.table tr td button:hover .fa {
+  opacity: 1;
+  color: var(--red);
+}
+
+.table th[data-id='email'],
+.table th[data-id='username'] {
+  cursor: pointer;
+}
+

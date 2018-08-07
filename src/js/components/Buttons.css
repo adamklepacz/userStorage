@@ -1,0 +1,54 @@
+/* button styles */
+
+.main-button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 8px 30px;
+  border-radius: 3px;
+  border: 1px solid var(--green);
+  color: var(--green);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.main-button:hover:enabled {
+  color: var(--white);
+  background: var(--green);
+}
+
+.main-button--green {
+  background-color: var(--green);
+  color: var(--white);
+}
+
+.main-button--large {
+  padding: 10px 50px;
+}
+
+.main-button .fa {
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.main-button:disabled {
+  border: 1px solid var(--gray5);
+  color: var(--gray5);
+}
+
+.main-reset {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 13px;
+  color: var(--red);
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--red);
+}
+
+.button-delete {
+  cursor: pointer;
+}
