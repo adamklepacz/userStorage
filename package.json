@@ -1,6 +1,6 @@
 {
-  "homepage": "https://adamklepacz.github.io/unamo/",
-  "name": "unamo",
+  "homepage": "https://adamklepacz.github.io/userStorage/",
+  "name": "userStorage",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

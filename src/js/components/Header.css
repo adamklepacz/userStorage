@@ -13,3 +13,8 @@
   line-height: 11px;
   text-decoration: none;
 }
+
+.user-logo {
+  max-height: 18px;
+  margin-right: 8px;
+}
